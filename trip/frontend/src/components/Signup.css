@@ -1,0 +1,66 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.field{
+  width: 100%;
+}
+
+.sub{
+  width: 100%;
+}
+.bt{
+  width: 100%;
+}
+
+@media screen and (max-width:990px) {
+  .img-fluid{
+    display: none;
+}
+}
+
+@media screen and (max-width:750px) {
+  .h3 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width:570px) {
+  .h3 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  .sub{
+    width: 80%;
+    margin-left: 3.5rem;
+  }
+  .bt{
+    width: 80%;
+    margin-left: 3.5rem;
+  }
+
+  .field{
+    width: 80%;
+    margin-left: 3.5rem;
+  }
+
+   .sf{
+    white-space: nowrap;
+   }
+}

@@ -1,0 +1,449 @@
+#container{
+    width: 100%;
+    height: 290px;
+
+}
+#part1{
+    width: 100%;
+    height: 280px;
+    background-color: #292929;
+}
+#part2{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    top: -15px;
+}
+#companyinfo{
+    width: 14%;
+    height: 280px;
+    position: relative;
+    left: 8%;
+    top: 30px;
+}
+#sitelink{
+    font-size: 35px;
+    color: #f44336;
+    font-weight: 700;
+}
+#sitelink:hover{
+    color: #e65100;
+}
+#title{
+    color: gray;
+    position: relative;
+    top: 0px;
+    font-size: 17px;
+}
+#detail{
+    color: #aaa7a7;
+    font-size: 16px;
+}
+#explore{
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -235px;
+    left: 29%;
+}
+#txt1, #txt2, #txt3, #txt4, #txt5{
+    color: white;
+    font-size: 20px;
+}
+.link{
+    display: flex;
+    width: 90px;
+    height: 40px;
+    color: #aaa7a7;
+    background-color: transparent;
+    border-top: 2px solid white;
+    position: relative;
+    top: -10px;
+}
+.link:hover, .link1:hover{
+    color: #e65100;
+}
+#visit{
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -515px;
+    left: 42%;
+}
+.text{
+    color: #aaa7a7;
+    font-size: 14px;
+    margin-top: -10px;
+}
+#legal{
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -800px;
+    left: 59.5%;
+}
+#connect{
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -1080px;
+    left: 77.5%;
+    
+}
+
+.icon{
+    margin-left: -25px;
+}
+.link1{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    color: #aaa7a7;
+    background-color: transparent;
+    border-top: 2px solid white;
+    position: relative;
+    top: -7px;
+    margin-top: 7px;
+    font-size: 0.9rem;
+}
+
+#txt5{
+    position: relative;
+    top: 0px;
+    color:aliceblue;
+}
+
+.t1{
+    cursor: pointer;
+    text-decoration: none;
+}
+#txt6{
+    color: white;
+    position: relative;
+    top: 13px;
+    left: 8%;
+    width: 80%;
+    color: #aaa7a7;
+}
+.material-icons{
+    position: relative;
+    top: 3px;
+}
+
+@media screen and (max-width:1270px) {
+   #connect{
+    margin-left:30px;
+   }
+   .icon{
+    display: flex;
+    margin-left: -20px;
+   }
+}
+
+@media screen and (max-width:1120px){
+    #companyinfo{
+        width: 20%;
+    }
+    #sitelink{
+        font-size: 30px;
+    }
+    #txt5, #txt4{
+        font-size: 17px;
+    }
+    #txt5, .social{
+        position: relative;
+        top: -5px;
+    }
+    #connect{
+        width: 25%;
+        height: 280px;
+        position: relative;
+        top: -1080px;
+        left: 78.5%;
+        
+    }
+    .t1{
+        font-size: 25;
+    }
+    .icon{
+        width: 10px;
+        height: 10px;
+        margin-left: -30px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:1010px){
+    #companyinfo{
+        position: relative;
+        left: 3%;
+    }
+    #txt6{
+        position: relative;
+        left: 3%;
+    }
+    #txt1, #txt2, #txt3, #txt4, #txt5{
+        font-size: 15px;
+    }
+    #explore{
+        position: relative;
+        top: -240px;
+        left: 26%;
+    }
+    #sitelink{
+        font-size: 25px;
+    }
+    #detail{
+        font-size: 13px;
+    }
+    .link{
+        width: 60px;
+    }
+    #visit{
+        position: relative;
+        top: -520px;
+        left: 37%;
+    }
+    .text{
+        font-size: 13px;
+    }
+    #legal{
+        position: relative;
+        top: -800px;
+        left: 54%;
+    }
+    #txt5, .social{
+        position: relative;
+        left: 10%;
+        top: px;
+    }
+    #part1{
+        height: 300px;
+    }
+    .icon{
+        width: 10px;
+        height: 10px;
+        margin-left: -30px;
+        margin-top: 30px;
+    }
+    #connect{
+        margin-left: 0px;
+    }
+}
+
+
+
+@media screen and (max-width:960px) {
+    #connect{
+        margin-left:0px;
+       }
+       .icon{
+        display: flex;
+        margin-left: -40px;
+       }
+}
+
+@media screen and (max-width:732px){
+   .icon{
+     display: grid;
+     margin-top: -25px;
+     padding: 1rem;
+     margin-left: 10px;
+   }
+   .t1{
+    margin-top: 0.5rem;
+    font-size: 10px;
+   }
+}
+
+@media screen and (max-width:585px){
+    #companyinfo{
+        position: relative;
+        left: 3%;
+    }
+    #txt6{
+        position: relative;
+        left: 3%;
+    }
+    #txt1, #txt2, #txt3, #txt4, #txt5{
+        font-size: 15px;
+    }
+    #explore{
+        position: relative;
+        top: -240px;
+        left: 24%;
+    }
+    #sitelink{
+        font-size: 25px;
+    }
+    #detail{
+        font-size: 11px;
+    }
+    .link{
+        width: 52px;
+    }
+    .link1{
+        width: 110px;
+        font-size: 12px;
+        
+    }
+    #visit{
+        position: relative;
+        top: -520px;
+        left: 37%;
+    }
+    .text{
+        font-size: 12px;
+    }
+    #legal{
+        position: relative;
+        top: -800px;
+        left: 54%;
+    }
+    #txt5{
+        position: relative;
+        left: -9%;
+        top: 0px;
+    }
+    #part1{
+        height: 300px;
+    }
+    .icon{
+        width: 10px;
+        height: 10px;
+        margin-left: 0px;
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width:475px){
+    #companyinfo{
+        position: relative;
+        left: 3%;
+    }
+    #txt6{
+        position: relative;
+        left: 5%;
+    }
+    #txt1, #txt2, #txt3, #txt4, #txt5{
+        font-size: 15px;
+    }
+    #explore{
+        position: relative;
+        top: -240px;
+        left: 25%;
+    }
+    #sitelink{
+        font-size: 20px;
+    }
+    #title{
+        font-size: 12px;
+    }
+    #detail{
+        font-size: 11px;
+    }
+    .link{
+        width: 50px;
+        font-size: 15px;
+    }
+    .link1{
+        width: 55px;
+        font-size: 12px;
+    }
+    #visit{
+        position: relative;
+        top: -520px;
+        left: 40%;
+    }
+    .text{
+        font-size: 10px;
+    }
+    #legal{
+        position: relative;
+        top: -800px;
+        left: 56%;
+    }
+    #txt5{
+        position: relative;
+        left: -20%;
+        font-size: 13px;
+        top:0;
+    }
+    #part1{
+        height: 300px;
+    }
+    .icon{
+        width: 10px;
+        height: 10px;
+        margin-left: -30px;
+        margin-top: -30px;
+    }
+
+}
+@media screen and (max-width:380px){
+    #companyinfo{
+        position: relative;
+        left: 3%;
+    }
+    #txt6{
+        position: relative;
+        left: 3%;
+    }
+    #txt1, #txt2, #txt3, #txt4, #txt5{
+        font-size: 10px;
+    }
+    #explore{
+        position: relative;
+        top: -240px;
+        left: 23%;
+    }
+    #sitelink{
+        font-size: 15px;
+    }
+    #title{
+        font-size: 9px;
+    }
+    #detail{
+        font-size: 8px;
+    }
+    .link{
+        width: 40px;
+        font-size: 12px;
+    }
+    .link1{
+        width: 70px;
+        font-size: 10px;
+        
+    }
+    #visit{
+        position: relative;
+        top: -520px;
+        left: 37%;
+    }
+    .text{
+        font-size: 10px;
+    }
+    #legal{
+        position: relative;
+        top: -800px;
+        left: 55%;
+    }
+    #txt5{
+        position: relative;
+        left: -10%;
+        top: 0px;
+    }
+    #part1{
+        height: 300px;
+    }
+    #part2{
+        height: 50px;
+        font-size: 14px;
+    }
+    .icon{
+        width: 10px;
+        height: 10px;
+        margin-left: -20px;
+        margin-top: -20px;
+    }
+}

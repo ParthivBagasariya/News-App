@@ -1,0 +1,257 @@
+.base{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+
+.img{
+    width: 100%;
+    height: 620px;
+    padding: 0rem;
+   object-fit:fill;
+}
+
+.base-text{
+    position: absolute;
+    top:52%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    
+}
+
+
+
+.base-text .show{
+    border-radius: 4px;
+    background-color: #5ca1e1;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding: 16px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+    box-shadow: 0 10px 20px -8px rgba(219, 198, 198, 0.7);
+  }
+  
+  .base-text .show{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .base-text .show:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 8px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .base-text .show:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  .base-text .show:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+.base-text h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: black;
+}
+
+.base-text p{
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+}
+
+
+
+.base-text .show{
+    text-decoration: none;
+    background-color: #136dac;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    border: 1px solid white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 41%;
+}
+
+@media screen and (max-width:1400px){
+    .base-text h1{
+        font-size: 3rem;
+        font-weight: 600;
+        color: black;
+    }
+    
+    .base-text p{
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: black;
+    }
+    
+    .base-text .show{
+        text-decoration: none;
+        background-color: #136dac;
+        color: white;
+        padding: 0.3rem 1.5rem;
+        border-radius: 5px;
+        font-size: 1rem;
+        border: 1px solid white;
+        font-weight: bold;
+        letter-spacing: 0.8px;
+    
+    }
+    
+}
+
+@media screen and (max-width:1050px){
+    .base-text h1{
+        font-size: 3rem;
+        font-weight: 600;
+        color: black;
+        white-space: nowrap;
+    }
+    
+    .base-text p{
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: black;
+        white-space: nowrap;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    .base-text h1{
+        font-size: 2rem;
+        font-weight: 600;
+        color: black;
+        white-space: nowrap;
+    }
+    
+    .base-text p{
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: black;
+        margin-left: 10%;
+    }
+
+    .base-text .show{
+        text-decoration: none;
+        background-color: #136dac;
+        color: white;
+        padding: 0.2rem 1.2rem;
+        border-radius: 5px;
+        font-size: 1rem;
+        border: 1px solid white;
+        font-weight: bold;
+        letter-spacing: 0.6px;
+    
+    }
+    
+}
+
+@media screen and (max-width:550px){
+    .base-text h1{
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: black;
+    }
+    
+    .base-text p{
+        font-size: 1rem;
+        font-weight: 600;
+        color: black;
+    }
+    
+    .base-text .show{
+        text-decoration: none;
+        background-color: #136dac;
+        color: white;
+        padding: 0.3rem 1.1rem;
+        border-radius: 5px;
+        font-size: 1rem;
+        border: 1px solid white;
+        font-weight: bold;
+        letter-spacing: 0.6px;
+    
+    }
+    
+}
+
+@media screen and (max-width:452px){
+    .base-text h1{
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: black;
+    }
+    
+    .base-text p{
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: black;
+        white-space: nowrap;
+    }
+    
+    .base-text .show{
+        text-decoration: none;
+        background-color: #136dac;
+        color: white;
+        padding: 0.13em 1rem;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        border: 1px solid white;
+        font-weight: bold;
+        letter-spacing: 0.4px;
+        margin-left: 40%;
+    
+    }
+    
+}
+
+@media screen and (max-width:380px){
+    .base-text h1{
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: black;
+        white-space: nowrap;
+    }
+    
+    .base-text p{
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: black;
+        white-space: nowrap;
+        margin-left: 10px;
+    }
+    
+    .base-text .show{
+        text-decoration: none;
+        background-color: #136dac;
+        color: white;
+        padding: 0.3rem 1rem;
+        border-radius: 5px;
+        font-size: 1rem;
+        border: 1px solid white;
+        font-weight: bold;
+        letter-spacing: 0.3px;
+        margin-left: 38%;
+    
+    }
+    
+}

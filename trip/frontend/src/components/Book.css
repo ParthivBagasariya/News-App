@@ -1,0 +1,74 @@
+.filter-gal-par {
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.filter{
+    padding:1rem;
+}
+
+.row{
+    margin-top: 5rem;
+}
+
+.img-responsive{
+    box-shadow: 0 10px 15px 2px gray;
+    transition: 0.5s ease-in-out;
+    width: 400px;
+    height: 300px;
+}
+
+.img-responsive:hover{
+    transform: scale(1.1);
+    cursor: cell;
+}
+
+.b-text{
+    margin-top: 3.5rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    
+}
+
+.cost{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+
+.form {
+    margin-top: 20px;
+}
+
+.label{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+
+.bi {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #b5a9a9;
+    border-radius: 5px;
+}
+
+.book2{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: #222;
+    margin-left: 48%;
+    margin-top: 1rem;
+}
+
+.book2:hover{
+    background-color:#222;
+    color: white;
+}

@@ -1,0 +1,261 @@
+.destination{
+    justify-content: center;
+    margin: 4rem 6rem;
+}
+
+.destination h1{
+    font-size: 3rem;
+}
+
+.first-des{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 4.5rem;
+}
+
+.first-des-rev{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7.5rem;
+    }
+
+.ph{
+    margin-left: 37%;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.pp{
+    margin-left: 35%;
+    margin-top: -2rem;
+}
+.des-text{
+   width: 45%;
+   text-align: start;
+   font-size: 1.2rem;
+
+}
+
+.des-text h2{
+    padding-bottom: 1rem;
+}
+
+.ima{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+
+}
+
+.ima img{
+    width:49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 50px 62px -18px gray;
+}
+
+
+.ima img:nth-child(2){
+    position: absolute;
+    top:-20px;
+    right: 0;
+}
+@media screen and (max-width:1630px) {
+
+    .ph{
+        margin-left: 36.8%;
+    }
+    
+    .pp{
+        margin-left: 37%;
+        margin-top: -0.2rem;
+    }  
+
+}
+
+@media screen and (max-width:1276px) {
+
+    .ph{
+        margin-left: 30%;
+    }
+    
+    .pp{
+        margin-left: 31%;
+        margin-top: -0.2rem;
+    }  
+
+}
+
+@media screen and (max-width:950px) {
+    .ph{
+        margin-left: 28%;
+    }
+    .des-text h2{
+        white-space:nowrap;
+    
+     }
+    .pp{
+        margin-left: 28.8%;
+        margin-top: -0.2rem;
+    }  
+}
+
+@media screen and (max-width:822px) {
+    .destination{
+        justify-content: center;
+        margin: 4rem 2rem;
+    }
+    
+    .des-text h2{
+        white-space:nowrap;
+        
+     }
+
+    .ph{
+        margin-left: 20%;
+    white-space:nowrap;
+    }
+    
+    .pp{
+        margin-left: 20%;
+        margin-top: -0.2rem;
+        white-space:nowrap;
+    }  
+}
+
+@media screen and (max-width:620px) {
+    .destination{
+        justify-content: center;
+        margin: 4rem 2rem;
+    }
+    
+    .destination h1{
+        font-size: 2.3rem;
+    }
+    .ph{
+        margin-left: 17%;
+    white-space:nowrap;
+    }
+    
+    .pp{
+        margin-left: 9.90%;
+        margin-top: -0.2rem;
+        white-space:nowrap;
+        font-size: 1rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width:565px) {
+    .destination{
+        justify-content: center;
+        margin: 4rem 2rem;
+    }
+    .destination h1{
+        font-size: 2rem;
+    }
+
+    .des-text h2{
+        white-space:nowrap;
+     }
+    .first-des{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content:space-between;
+        margin-top: 2.5rem;
+
+    }
+
+    .first-des-rev{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 6.5rem;
+        }
+
+     .ima{
+        width: 100%;
+        margin: 1.8rem 0;
+     }
+
+     .ima img{
+        height: 250px;
+     }
+    .des-text p{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .ph{
+        margin-left:18%;
+    white-space:nowrap;
+    }
+    
+    .pp{
+        margin-left:14%;
+        margin-top: -0.2rem;
+        white-space:nowrap;
+        font-size: 0.8rem;
+    }  
+}
+
+@media screen and (max-width:380px) {
+    .destination{
+        justify-content: center;
+        margin: 4rem 2rem;
+    }
+    .destination h1{
+        font-size: 1.7rem;
+    }
+    .des-text h2{
+       white-space:nowrap;
+       margin-left: -35%;
+    }
+    .first-des{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content:space-between;
+        margin-top: 2.5rem;
+
+    }
+
+    .first-des-rev{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 6.5rem;
+        }
+
+     .ima{
+        width: 100%;
+        margin: 1.8rem 0;
+     }
+
+     .ima img{
+        height: 250px;
+     }
+    .des-text p{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .ph{
+        margin-left:10%;
+    white-space:nowrap;
+    }
+    
+    .pp{
+        margin-left:5%;
+        margin-top: -0.2rem;
+        white-space:nowrap;
+        font-size: 0.7rem;
+    }  
+}
